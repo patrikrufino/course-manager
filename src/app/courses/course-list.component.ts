@@ -13,52 +13,52 @@ export class CourseListComponent implements OnInit {
             {
                 id: 1,
                 name: 'Angular: CLI',
-                imageUrl: 'https://angular.io/assets/images/logos/angular/angular.svg',
+                imageUrl: '/assets/images/cli.png',
                 price: 99.99,
                 code: 'A101',
                 duration: 120,
-                rating: 5.4,
-                releaseDate: new Date(2019, 0, 1)
+                rating: 3.4,
+                releaseDate: new Date('2019-01-01')
             },
             {
                 id: 2,
                 name: 'Angular: Forms',
-                imageUrl: 'https://angular.io/assets/images/logos/angular/angular.svg',
+                imageUrl: '/assets/images/forms.png',
                 price: 99.99,
                 code: 'A102',
                 duration: 120,
                 rating: 4.4,
-                releaseDate: new Date(2019, 0, 1)
+                releaseDate: new Date('2019-01-01')
             },
             {
                 id: 3,
                 name: 'Angular: HTTP',
-                imageUrl: 'https://angular.io/assets/images/logos/angular/angular.svg',
+                imageUrl: '/assets/images/http.png',
                 price: 99.99,
                 code: 'A103',
                 duration: 120,
                 rating: 3.4,
-                releaseDate: new Date(2019, 0, 1)
+                releaseDate: new Date('2019-01-01')
             },
             {
                 id: 4,
                 name: 'Angular: Router',
-                imageUrl: 'https://angular.io/assets/images/logos/angular/angular.svg',
+                imageUrl: '/assets/images/router.png',
                 price: 99.99,
                 code: 'A104',
                 duration: 120,
-                rating: 8.4,
-                releaseDate: new Date(2019, 0, 1)
+                rating: 4.4,
+                releaseDate: new Date('2019-01-01')
             },
             {
                 id: 5,
                 name: 'Angular: Animations',
-                imageUrl: 'https://angular.io/assets/images/logos/angular/angular.svg',
+                imageUrl: '/assets/images/animations.png',
                 price: 99.99,
                 code: 'A105',
                 duration: 120,
-                rating: 9.,
-                releaseDate: new Date(2019, 0, 1)
+                rating: 4.9,
+                releaseDate: new Date('2019-01-01')
             }
         ]
     }
