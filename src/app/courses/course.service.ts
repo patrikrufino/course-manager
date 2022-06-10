@@ -18,7 +18,7 @@ var COURSES: Course[] = [
         imageUrl: '/assets/images/cli.png',
         price: 99.99,
         description: 'The Complete guide to building the Angular CLI',
-        code: 'A101',
+        code: 'A-101',
         duration: 120,
         rating: 3.4,
         releaseDate: new Date('2019-01-01')
@@ -29,7 +29,7 @@ var COURSES: Course[] = [
         imageUrl: '/assets/images/forms.png',
         price: 99.99,
         description: 'The Complete guide to building the Angular Forms',
-        code: 'A102',
+        code: 'A-102',
         duration: 120,
         rating: 4.4,
         releaseDate: new Date('2019-01-01')
@@ -40,7 +40,7 @@ var COURSES: Course[] = [
         imageUrl: '/assets/images/http.png',
         price: 99.99,
         description: 'The Complete guide to building the Angular HTTP',
-        code: 'A103',
+        code: 'A-103',
         duration: 120,
         rating: 3.4,
         releaseDate: new Date('2019-01-01')
@@ -51,7 +51,7 @@ var COURSES: Course[] = [
         imageUrl: '/assets/images/router.png',
         price: 99.99,
         description: 'The Complete guide to building the Angular Router',
-        code: 'A104',
+        code: 'A-104',
         duration: 120,
         rating: 4.4,
         releaseDate: new Date('2019-01-01')
@@ -62,7 +62,7 @@ var COURSES: Course[] = [
         imageUrl: '/assets/images/animations.png',
         price: 99.99,
         description: 'The Complete guide to building the Angular Animations',
-        code: 'A105',
+        code: 'A-105',
         duration: 120,
         rating: 4.9,
         releaseDate: new Date('2019-01-01')

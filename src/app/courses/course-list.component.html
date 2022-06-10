@@ -18,6 +18,7 @@
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
+                    <th>Code</th>
                     <th>Image</th>
                     <th>Price</th>
                     <th>Realease Date</th>
@@ -29,9 +30,10 @@
                 <tr *ngFor="let course of filteredCourses">
                     <td>{{course.id}}</td>
                     <td>{{course.name}}</td>
+                    <td>{{course.code | replace: '-' : ' '}}</td>
                     <td><img src="{{course.imageUrl}}" width="40px" height="40px"></td>
                     <td>${{course.price}}</td>
-                    <td>{{course.releaseDate}}</td>
+                    <td>{{course.releaseDate | date: 'dd/MM/yyyy'}}</td>
                     <td>
                         <app-star [rating]="course.rating"></app-star>
                     </td>
