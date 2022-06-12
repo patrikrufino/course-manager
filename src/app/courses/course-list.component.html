@@ -40,6 +40,10 @@
                     <td>
                         <a [routerLink]="['/courses/info', course.id]" class="btn btn-primary"><i
                                 class="fa fa-edit"></i> Edit</a>
+
+                        <button (click)="deleteById(course.id)" class="btn btn-danger ml-2">
+                            <i class="fa fa-trash"></i> Delete
+                        </button>
                     </td>
                 </tr>
             </tbody>
