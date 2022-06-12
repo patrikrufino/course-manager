@@ -10,6 +10,7 @@ import { NavBarComponent } from './navbar/nav-bar.component';
 import { RouterModule } from '@angular/router';
 import { Error404Component } from './error-404/error-404.component';
 import { CourseInfoComponent } from './courses/course-info.component';
+import { HttpClientModule } from '@angular/common/http'; // for http client
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { CourseInfoComponent } from './courses/course-info.component';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     RouterModule.forRoot([
       {
         path: 'courses', component: CourseListComponent
